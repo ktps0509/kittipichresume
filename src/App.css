@@ -1,15 +1,47 @@
+
 .App {
+  background-color: #282c34;
+  
+}
+
+.cardH {
+  /* margin-top: 15%; */
   text-align: center;
+}
+.font-black{
+  color: black;
+}
+
+.bgcolor {
+  background-color: #1f1a1a;
+}
+
+.cardHD {
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 2%;
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear;
+    animation-direction: alternate;
+  }
+}
+
+.TelAnimate {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .TelAnimate {
+    animation: App-logo-spin infinite 0.15s linear;
+    animation-direction: alternate;
+    height: 60px;
   }
 }
 
@@ -24,15 +56,48 @@
   color: white;
 }
 
+.paddingH {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .App-link {
   color: #61dafb;
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(-5deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(5deg);
   }
+}
+
+
+
+.BG-Home {
+  background: linear-gradient(195deg, #FEDB01  60%, #1A1A1A 50%); 
+}
+
+.BG-About {
+  background: #1A1A1A;
+  color: white; 
+}
+
+.BG-Skill {
+  background: linear-gradient(175deg, #1A1A1A  50%, #FEDB01 70%);
+  color: white; 
+
+}
+
+.BG-Portfolio {
+  background: linear-gradient(180deg, #FEDB01  50%, #FEDB01  70%);
+  color: white; 
+
+}
+
+.BG-Contact {
+  background: #FEDB01;
+
 }
