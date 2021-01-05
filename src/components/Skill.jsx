@@ -9,7 +9,7 @@ export class Skill extends Component {
     render() {
         return (
             <div>
-                 <Image  src={this.props.imgurl} rounded style={{width : '80px', height : '80px'}}/>
+                 <Image  src={this.props.imgurl} rounded style={{width : '90px', height : '90px'}}/>
             </div>
         )
     }

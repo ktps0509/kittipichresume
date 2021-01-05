@@ -12,6 +12,10 @@ import iconJS from './assets/Img/IconSkill/js.png';
 import iconCS from './assets/Img/IconSkill/cs.png';
 import iconKTP from './assets/Img/ktpktp.jpg';
 import iconIonic from './assets/Img/IconSkill/ionic.png';
+import iconCall from './assets/Img/IconContact/call.png';
+import iconLocation from './assets/Img/IconContact/location.png';
+import iconSend from './assets/Img/IconContact/send.png';
+import iconflutter from './assets/Img/IconSkill/flutterlogo.png';
 import iconSheild from './assets/Img/IconPort/iconSheild.png';
 import Slide from 'react-reveal/Slide';
 import Carousel from 'react-bootstrap/Carousel';
@@ -86,6 +90,9 @@ class App extends Component {
                     <Skill imgurl={iconReact} />
                   </Col>
                   <Col sm className="TelAnimate">
+                    <Skill imgurl={iconflutter} />
+                  </Col>
+                  <Col sm className="TelAnimate">
                     <Skill imgurl={iconIonic} />
                   </Col>
                   <Col sm className="TelAnimate">
@@ -100,43 +107,9 @@ class App extends Component {
                 </Row>
               </Container>
             </Slide>
-            {/* 
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <b style={{ fontSize: "24px" }}>Work Flow</b> */}
 
           </div>
         </section>
-
-
-        {/* <section id="Portfolio" className="p-1 p-lg-5 BG-Portfolio">
-          <div style={{ marginTop: "5%", textAlign: "center" }}>
-
-            <b style={{ fontSize: "24px" }}>Portfolio</b>
-            <br></br>
-            <br></br>
-
-            <Carousel style={{ height: '500px' }} interval={5000}>
-              <Carousel.Item>
-
-                <SlidePort imgurl={iconSheild} />
-
-              </Carousel.Item>
-
-              <Carousel.Item>
-
-                <SlidePort imgurl={iconSheild} />
-
-              </Carousel.Item>
-            </Carousel>
-
-          </div>
-        </section> */}
-
 
 
         <section id="Contact" style={{ height: "980px" }} className="p-1 p-lg-5 BG-Contact">
@@ -150,7 +123,7 @@ class App extends Component {
             <Container>
               <Row>
                 <Col sm>
-                  <Image src={require('./assets/Img/IconContact/call.png')} className="TelAnimate" />
+                  <Image src={iconCall} className="TelAnimate" />
                   <br></br>
                   <br></br>
                   <b>PHONE</b>
@@ -159,7 +132,7 @@ class App extends Component {
                   <p>+66 928849832</p>
                 </Col>
                 <Col sm>
-                  <Image src={require('./assets/Img/IconContact/send.png')} className="TelAnimate" />
+                  <Image src={iconLocation} className="TelAnimate" />
                   <br></br>
                   <br></br>
                   <b>EMAIL</b>
@@ -168,7 +141,7 @@ class App extends Component {
                   <p>ktpskittipich@gmail.com</p>
                 </Col>
                 <Col sm>
-                  <Image src={require('./assets/Img/IconContact/location.png')} className="TelAnimate" />
+                  <Image src={iconSend} className="TelAnimate" />
                   <br></br>
                   <br></br>
                   <b>LOCATION</b>
