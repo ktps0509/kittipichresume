@@ -45,6 +45,12 @@
   }
 }
 
+.site-container > * {
+  -webkit-flex: 1 1 0;
+  -ms-flex: 1 1 0;
+  flex: 1 1 0;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -75,8 +75,47 @@ class App extends Component {
         </section>
 
 
-        <section id="Skill" className="p-1 p-lg-5 BG-Skill">
-          <div style={{ marginTop: "5%", textAlign: "center" }}>
+        <section id="Experience" className="p-1 p-lg-5 BG-About">
+        <div style={{ marginTop: "5%", textAlign: "center" }}>
+            <p>
+              <b style={{ fontSize: "28px" }}>Experience</b>
+            </p>
+          </div>
+
+          <div style={{textAlign: "left" }}>
+            <p>
+              <b style={{ fontSize: "22px" }}>Full Stack Developer</b>
+            </p>
+          </div>
+          <div>
+          <p>
+          ● Responsible for application flow design, UX design and development of website.<br />
+          ● Analyze requirement of customer with the team according to project's timeline in order to complete the project in time.<br />
+          ● Develop Frontend web application with Angular Bootstrap and SCSS .<br />
+          ● Develop Backend web application with C# Rest API.<br />
+          ● Develop Mobile application with Ionic Framework.<br />
+          </p>
+          </div>
+          
+
+          <div style={{ textAlign: "left" , marginTop: 20}}>
+            <p>
+              <b style={{ fontSize: "22px" }}>Flutter (self-learning)</b>
+            </p>
+
+          </div>
+          <div>
+          <p>
+          ● Develop Mobile application Time Attendance(demo) with Flutter and Dart.<br />
+          ● Manage database with Firebase Cloud Firestore.<br />
+          </p>
+          </div>
+          
+        </section>
+
+
+        <section id="Skill" className="p-1 p-lg-5 BG-Skill site-container">
+          <div style={{ marginTop: "5%", textAlign: "center", height: 400 }}>
 
 
             <b style={{ fontSize: "24px" }}>Programming Languages & Tools</b>
@@ -112,7 +151,9 @@ class App extends Component {
         </section>
 
 
-        <section id="Contact" style={{ height: "980px" }} className="p-1 p-lg-5 BG-Contact">
+
+
+        <section id="Contact" style={{ height: "800px" }} className="p-1 p-lg-5 BG-Contact site-container">
           <div style={{ marginTop: "5%", textAlign: "center" }}>
 
 
